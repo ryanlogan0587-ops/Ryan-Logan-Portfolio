@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta.title">Ryan Logan | AI Portfolio</title>
+    <meta
+      name="description"
+      data-i18n-attr="content"
+      data-i18n="meta.description"
+      content="Ryan Logan's AI portfolio featuring practical automation systems, real-world artificial intelligence projects, and scalable workflow solutions."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top">Ryan Logan</a>
+        <div class="header-actions">
+          <nav class="site-nav">
+            <a href="#projects" data-i18n="nav.projects">Projects</a>
+            <a href="#process" data-i18n="nav.process">Process</a>
+            <a href="#about" data-i18n="nav.about">About</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
+          </nav>
+          <div
+            class="language-toggle"
+            role="group"
+            aria-label="Language selector"
+            data-i18n-attr="aria-label"
+            data-i18n="language.ariaLabel"
+          >
+            <button class="language-button is-active" type="button" data-language-button="en">
+              EN
+            </button>
+            <button class="language-button" type="button" data-language-button="es">
+              ES
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero.eyebrow">Artificial intelligence portfolio</p>
+            <h1 data-i18n-html="hero.title">
+              Ryan Logan builds
+              <span>AI systems</span>
+              that turn real-world problems into practical workflows.
+            </h1>
+            <p class="hero-text" data-i18n="hero.text">
+              I am focused on building useful AI and automation systems that
+              reduce manual work, improve decision-making, and make everyday
+              business processes more efficient. My interests sit at the
+              intersection of finance, operations, and practical automation.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects" data-i18n="hero.viewProjects">View projects</a>
+              <a class="button button-secondary" href="./Ryan%20Logan%20Resume.pdf" data-i18n="hero.viewResume">View resume</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <div class="profile-card">
+              <img
+                class="profile-image"
+                src="./headshot.jpeg"
+                data-i18n-attr="alt"
+                data-i18n="hero.headshotAlt"
+                alt="Ryan Logan headshot"
+              />
+              <div class="profile-copy">
+                <p class="signal-title">Ryan Logan</p>
+                <p class="profile-role" data-i18n="hero.profileRole">
+                  Building practical AI systems for finance, business workflows,
+                  and productivity
+                </p>
+              </div>
+            </div>
+
+            <div class="signal-card">
+              <p class="signal-title" data-i18n="hero.quickProfile">Quick profile</p>
+              <ul class="signal-list">
+                <li data-i18n-html="hero.quickItem1"><span>AI</span> practical systems over hype</li>
+                <li data-i18n-html="hero.quickItem2"><span>BSU</span> Honors College, Accounting & Finance</li>
+                <li data-i18n-html="hero.quickItem3"><span>3</span> languages: English, Spanish, French</li>
+              </ul>
+            </div>
+
+            <div class="link-strip">
+              <a href="mailto:ryanlogan0587@gmail.com" data-i18n="links.email">Email</a>
+              <a href="https://github.com/ryanlogan0587-ops" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/ryan-logan-2646b4388/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+            <div class="orb orb-one"></div>
+            <div class="orb orb-two"></div>
+          </aside>
+        </section>
+
+        <section
+          class="ticker"
+          aria-label="Featured technologies"
+          data-i18n-attr="aria-label"
+          data-i18n="ticker.ariaLabel"
+        >
+          <div class="ticker-track">
+            <span data-i18n="ticker.item1">Ryan Logan</span>
+            <span data-i18n="ticker.item2">Practical AI</span>
+            <span data-i18n="ticker.item3">Email Automation</span>
+            <span data-i18n="ticker.item4">Finance Systems</span>
+            <span data-i18n="ticker.item5">Workflow Design</span>
+            <span data-i18n="ticker.item6">Structured Data</span>
+            <span data-i18n="ticker.item7">Decision Support</span>
+            <span data-i18n="ticker.item8">Business Automation</span>
+          </div>
+        </section>
+
+        <section class="projects-section" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="projects.eyebrow">Current project</p>
+            <h2 data-i18n="projects.heading">A real workflow I am building to turn raw financial emails into structured, usable data.</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card featured">
+              <div class="project-meta">
+                <span data-i18n="projects.featured.meta1">Project 01</span>
+                <span data-i18n="projects.featured.meta2">AI + Email Automation</span>
+              </div>
+              <h3 data-i18n="projects.featured.title">AI Financial Email Parser</h3>
+              <p data-i18n="projects.featured.text">
+                This project pulls transaction information from Bank of America
+                email alerts, uses AI to parse and categorize the data, and
+                sends it into a structured Excel budgeting system. The goal is
+                to remove repetitive manual entry and create cleaner financial
+                visibility.
+              </p>
+              <ul class="tag-list">
+                <li data-i18n="projects.featured.tag1">Email parsing</li>
+                <li data-i18n="projects.featured.tag2">AI structuring</li>
+                <li data-i18n="projects.featured.tag3">Excel automation</li>
+              </ul>
+              <a href="https://github.com/ryanlogan0587-ops" class="text-link" target="_blank" rel="noreferrer" data-i18n="projects.featured.link">View GitHub profile</a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-meta">
+                <span data-i18n="projects.problem.meta1">Problem</span>
+                <span data-i18n="projects.problem.meta2">Why it matters</span>
+              </div>
+              <h3 data-i18n="projects.problem.title">Reducing manual financial tracking</h3>
+              <p data-i18n="projects.problem.text">
+                Financial activity often lives in scattered inbox alerts and
+                disconnected records. I am building this system to turn that
+                unstructured information into something organized, trackable,
+                and useful without constant manual upkeep.
+              </p>
+              <ul class="tag-list">
+                <li data-i18n="projects.problem.tag1">Workflow efficiency</li>
+                <li data-i18n="projects.problem.tag2">Personal finance</li>
+                <li data-i18n="projects.problem.tag3">Structured records</li>
+              </ul>
+              <span class="text-link" data-i18n="projects.problem.link">Built for real-world utility</span>
+            </article>
+
+            <article class="project-card">
+              <div class="project-meta">
+                <span data-i18n="projects.future.meta1">Direction</span>
+                <span data-i18n="projects.future.meta2">What comes next</span>
+              </div>
+              <h3 data-i18n="projects.future.title">More systems in development</h3>
+              <p data-i18n="projects.future.text">
+                Beyond this project, I want to keep building AI systems that
+                help individuals and small businesses save time, operate
+                smarter, and make better decisions. My focus is on useful
+                systems, not just demos.
+              </p>
+              <ul class="tag-list">
+                <li data-i18n="projects.future.tag1">Business workflows</li>
+                <li data-i18n="projects.future.tag2">Decision support</li>
+                <li data-i18n="projects.future.tag3">Practical AI</li>
+              </ul>
+              <a href="#about" class="text-link" data-i18n="projects.future.link">Read more about Ryan</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="process-section" id="process">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="process.eyebrow">How I work</p>
+            <h2 data-i18n="process.heading">A process centered on solving real problems with clear, usable systems.</h2>
+          </div>
+
+          <div class="process-grid">
+            <article>
+              <span>01</span>
+              <h3 data-i18n="process.step1.title">Discover</h3>
+              <p data-i18n="process.step1.text">
+                I start by looking for friction in real workflows: where
+                information is messy, where time is wasted, and where better
+                systems could create leverage.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3 data-i18n="process.step2.title">Prototype</h3>
+              <p data-i18n="process.step2.text">
+                I connect tools, prompts, and structured outputs into an early
+                workflow, then test whether it actually reduces effort and
+                improves the process.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3 data-i18n="process.step3.title">Refine</h3>
+              <p data-i18n="process.step3.text">
+                I refine each system around usefulness, reliability, and
+                scalability so it can move beyond an experiment and support
+                real everyday use.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="about-section" id="about">
+          <div class="about-copy">
+            <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+            <h2 data-i18n="about.heading">I am building toward a future in AI-enhanced business systems, finance workflows, and practical problem solving.</h2>
+            <p data-i18n="about.text1">
+              My goal is to build practical AI and automation systems that help
+              people and businesses save time, reduce complexity, and make
+              better decisions. I see AI as a tool for improving systems, not
+              just as a standalone product.
+            </p>
+            <p data-i18n="about.text2">
+              I am especially interested in finance, business operations, and
+              productivity workflows where unstructured information can be
+              turned into clean processes and usable insights. Long term, I
+              want to keep building systems that are practical, scalable, and
+              grounded in real-world use.
+            </p>
+          </div>
+
+          <div class="about-stack">
+            <div>
+              <p class="stack-label" data-i18n="about.stack.educationLabel">Education</p>
+              <p data-i18n="about.stack.educationText">Bridgewater State University Honors College, Accounting & Finance</p>
+            </div>
+            <div>
+              <p class="stack-label" data-i18n="about.stack.backgroundLabel">Background</p>
+              <p data-i18n="about.stack.backgroundText">Entrepreneurship, finance, operations, and hands-on business experience</p>
+            </div>
+            <div>
+              <p class="stack-label" data-i18n="about.stack.focusLabel">Focus</p>
+              <p data-i18n="about.stack.focusText">Practical AI, automation systems, structured data workflows, and scalable execution</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.heading">Let’s connect about AI, automation, finance workflows, and practical systems.</h2>
+          <p data-i18n="contact.text">
+            You can reach me by email, view my GitHub, connect on LinkedIn, or
+            open my resume directly.
+          </p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:ryanlogan0587@gmail.com">
+              ryanlogan0587@gmail.com
+            </a>
+            <a
+              class="button button-secondary"
+              href="https://github.com/ryanlogan0587-ops"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              class="button button-secondary"
+              href="https://www.linkedin.com/in/ryan-logan-2646b4388/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              class="button button-secondary"
+              href="./Ryan%20Logan%20Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="contact.resume"
+            >
+              Resume
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+  </html>
