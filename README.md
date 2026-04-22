@@ -1,58 +1,35 @@
 # Ryan Logan Portfolio
 
-Static portfolio website for Ryan Logan focused on practical AI systems, finance workflows, and business automation.
+This is my personal portfolio site.
 
-## Overview
+I made it to share the kind of work I want to keep building: practical AI systems, automation, finance-related workflows, and tools that solve real problems instead of just looking impressive in a demo.
 
-This site presents Ryan Logan's portfolio as a bilingual single-page experience in English and Spanish. It highlights a practical approach to AI, with an emphasis on real workflow improvement rather than demo-only projects.
+Right now the main project featured here is my AI Financial Email Parser. The idea is to take Bank of America email alerts, pull out the useful transaction information, and turn it into structured data that can go into an Excel budgeting system. I’m interested in building more projects like that where AI helps make everyday processes cleaner, faster, and more useful.
 
-The homepage introduces Ryan's background, links to his resume and contact channels, and showcases a featured project: an AI financial email parser that turns Bank of America email alerts into structured Excel budgeting data.
+The site includes:
 
-## Site Sections
+- a short intro about me and what I’m focused on
+- a featured project section
+- a simple breakdown of how I approach building systems
+- an about section with my background and interests
+- links to my email, GitHub, LinkedIn, and resume
 
-- Hero section with portfolio positioning, headshot, quick profile, and resume link
-- Featured project section centered on the AI Financial Email Parser
-- Process section outlining the workflow: discover, prototype, refine
-- About section covering education, background, and long-term focus
-- Contact section with email, GitHub, LinkedIn, and resume access
+I also added English and Spanish language support because language matters to me and I wanted the site to reflect that.
 
-## Features
+This project is built with plain HTML, CSS, and JavaScript.
 
-- Fully static site built with plain HTML, CSS, and JavaScript
-- English and Spanish language toggle
-- Automatic initial language selection based on the browser locale
-- Smooth-scroll single-page navigation
-- Section reveal animations using `IntersectionObserver`
-- Resume download/open link
-- Direct links to GitHub, LinkedIn, and email
+## Files
 
-## Design Notes
+- `index.html` for the content and structure
+- `styles.css` for the design and layout
+- `script.js` for the animations and language toggle
+- `headshot.jpeg` for my profile image
+- `Ryan Logan Resume.pdf` for my resume
 
-The visual direction uses warm editorial styling with:
+## Running It
 
-- `Space Grotesk` for the primary sans-serif type
-- `Instrument Serif` for display contrast
-- Layered gradients, subtle grid texture, and glass-like cards
-- Responsive layout for desktop and mobile screens
+Open `index.html` in a browser to view the site locally.
 
-## Project Structure
+## GitHub
 
-- `index.html`: page structure and all portfolio content
-- `styles.css`: layout, typography, colors, responsiveness, and animations
-- `script.js`: reveal-on-scroll behavior and bilingual translation system
-- `headshot.jpeg`: profile image used in the hero panel
-- `Ryan Logan Resume.pdf`: linked resume document
-
-## Translation System
-
-All translatable copy is stored in a JavaScript `translations` object with `en` and `es` dictionaries. Elements are mapped using `data-i18n`, `data-i18n-html`, and `data-i18n-attr` attributes, which allows the page to swap text, HTML content, and attributes like `aria-label` and `alt` text.
-
-The selected language is saved in `localStorage` so returning visitors keep their preference.
-
-## Local Preview
-
-Open `index.html` in a browser to preview the site locally.
-
-## Repository
-
-GitHub repository: [Ryan-Logan-Portfolio](https://github.com/ryanlogan0587-ops/Ryan-Logan-Portfolio)
+[Ryan-Logan-Portfolio](https://github.com/ryanlogan0587-ops/Ryan-Logan-Portfolio)
