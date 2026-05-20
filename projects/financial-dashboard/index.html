@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Financial Dashboard</title>
+    <meta
+      name="description"
+      content="A professional Excel-based portfolio dashboard that tracks transactions, holdings, market value, gains, losses, return percentage, allocation, and workbook checks."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Excel portfolio analytics</p>
+        <h1>Financial Dashboard</h1>
+        <p class="lede">
+          An Excel workbook that turns portfolio transactions, asset details, and current prices into a clear investment performance dashboard.
+        </p>
+        <div class="actions">
+          <a class="button" href="../../#projects">Back to portfolio</a>
+          <a class="button button--primary" href="workbook/Financial%20Dashboard.xlsx">Download sample workbook</a>
+          <a class="button" href="#how-it-works">How it works</a>
+          <a class="button" href="#screenshots">View screenshots</a>
+        </div>
+      </div>
+      <img
+        class="hero__image"
+        src="assets/screenshots/Dashboard.png"
+        alt="Portfolio dashboard showing total portfolio value, gain and loss, return percentage, and allocation charts"
+      >
+    </header>
+
+    <main>
+      <section class="metrics" aria-label="Dashboard highlights">
+        <article>
+          <span>Total portfolio value</span>
+          <strong>$65,337.24</strong>
+        </article>
+        <article>
+          <span>Total gain/loss</span>
+          <strong>$11,697.24</strong>
+        </article>
+        <article>
+          <span>Return</span>
+          <strong>21.81%</strong>
+        </article>
+        <article>
+          <span>As of</span>
+          <strong>May 3, 2026</strong>
+        </article>
+      </section>
+
+      <section class="section" id="overview">
+        <div class="section__intro">
+          <p class="eyebrow">Overview</p>
+          <h2>What this project does</h2>
+          <p>
+            Financial Dashboard is an Excel-based portfolio analysis workbook. It records investment
+            transactions, connects them to asset and price data, calculates current holdings and
+            performance, validates the results, and presents the final numbers in a dashboard built
+            for quick review.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>The problem</h3>
+            <p>
+              Portfolio information is often scattered across trades, prices, classifications, and
+              manual calculations, making performance hard to review with confidence.
+            </p>
+          </article>
+          <article>
+            <h3>The purpose</h3>
+            <p>
+              This workbook centralizes the portfolio workflow so a user can move from raw activity
+              to reliable summary metrics without rebuilding calculations every time.
+            </p>
+          </article>
+          <article>
+            <h3>The output</h3>
+            <p>
+              The final dashboard shows portfolio value, total gain/loss, return percentage,
+              realized and unrealized gain/loss, and allocation charts.
+            </p>
+          </article>
+          <article>
+            <h3>The value</h3>
+            <p>
+              It makes the portfolio easier to understand, audit, and present by separating inputs,
+              calculations, checks, summaries, and dashboard visuals.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="how-it-works">
+        <div class="section__intro">
+          <p class="eyebrow">How it works</p>
+          <h2>From raw transactions to a finished dashboard</h2>
+          <p>
+            The workbook is organized as a step-by-step model. Each sheet has a clear role, and each
+            layer feeds the next one.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>1. Transactions</h3>
+            <p>Buy and sell activity is entered by ticker, quantity, price, date, and transaction type.</p>
+          </article>
+          <article>
+            <h3>2. Asset info</h3>
+            <p>Tickers are mapped to company names, sectors, and asset classifications for analysis.</p>
+          </article>
+          <article>
+            <h3>3. Prices</h3>
+            <p>Current market prices are maintained so each position can be valued at today&apos;s price.</p>
+          </article>
+          <article>
+            <h3>4. Stock data</h3>
+            <p>Asset and price details are combined into a cleaner lookup layer for the model.</p>
+          </article>
+          <article>
+            <h3>5. Holdings</h3>
+            <p>Transactions are aggregated into current shares, market value, cost basis, gains, and returns.</p>
+          </article>
+          <article>
+            <h3>6. Checks</h3>
+            <p>Reconciliation checks help confirm that source data and summary outputs tie together.</p>
+          </article>
+          <article>
+            <h3>7. Pivot summary</h3>
+            <p>Calculated data is summarized into chart-ready reporting tables.</p>
+          </article>
+          <article>
+            <h3>8. Dashboard</h3>
+            <p>The final worksheet presents headline metrics and charts for portfolio review.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__intro">
+          <p class="eyebrow">Key features</p>
+          <h2>What the workbook includes</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Performance metrics</h3>
+            <p>Total portfolio value, total gain/loss, realized gain/loss, unrealized gain/loss, and return percentage.</p>
+          </article>
+          <article>
+            <h3>Allocation analysis</h3>
+            <p>Charts show allocation by sector and by individual stock.</p>
+          </article>
+          <article>
+            <h3>Position-level detail</h3>
+            <p>The holdings sheet calculates shares, market value, cost basis, and ticker-level returns.</p>
+          </article>
+          <article>
+            <h3>Model validation</h3>
+            <p>The checks sheet helps identify calculation or reconciliation issues before the dashboard is used.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__intro">
+          <p class="eyebrow">Tech stack</p>
+          <h2>Tools used and why they matter</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Microsoft Excel</h3>
+            <p>Used for the workbook, formulas, tables, charts, dashboard layout, and financial model structure.</p>
+          </article>
+          <article>
+            <h3>Excel formulas</h3>
+            <p>Used for lookups, aggregation, holdings calculations, gain/loss logic, and validation checks.</p>
+          </article>
+          <article>
+            <h3>HTML and CSS</h3>
+            <p>Used to create this static project page and present the workbook clearly in a browser.</p>
+          </article>
+          <article>
+            <h3>GitHub</h3>
+            <p>Used to host the workbook, documentation, screenshots, and project page files.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__intro">
+          <p class="eyebrow">Example</p>
+          <h2>A real portfolio review workflow</h2>
+          <p>
+            A user enters trades for tickers such as AAPL, MSFT, NVDA, SPY, and GOOGL. The workbook
+            combines those transactions with asset information and current prices, then calculates
+            each position&apos;s current value and performance.
+          </p>
+          <p>
+            In the current dashboard example, the portfolio is valued at $65,337.24 with a total
+            gain/loss of $11,697.24 and a 21.81% return. The dashboard also shows which stocks and
+            sectors represent the largest parts of the portfolio.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__intro">
+          <p class="eyebrow">Project structure</p>
+          <h2>What is included in the repository</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>workbook/</h3>
+            <p>Contains the Excel file with the full portfolio model and dashboard.</p>
+          </article>
+          <article>
+            <h3>assets/screenshots/</h3>
+            <p>Contains screenshot files used by the README and this web page.</p>
+          </article>
+          <article>
+            <h3>Screenshots/</h3>
+            <p>Contains a top-level copy of the workbook screenshots for direct browsing in GitHub.</p>
+          </article>
+          <article>
+            <h3>README and site files</h3>
+            <p>Explain the project and provide a static project page through HTML and CSS.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__intro">
+          <p class="eyebrow">How to use</p>
+          <h2>Simple usage flow</h2>
+          <p>
+            Open the workbook in Excel, update transactions, confirm ticker information, refresh prices,
+            review holdings, check the validation sheet, and use the dashboard as the final summary view.
+            The static page can be opened in a browser to present the project visually.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__intro">
+          <p class="eyebrow">Skills demonstrated</p>
+          <h2>Resume-relevant strengths shown by this project</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Financial modeling</h3>
+            <p>Built calculations for market value, cost basis, realized gains, unrealized gains, and returns.</p>
+          </article>
+          <article>
+            <h3>Dashboard design</h3>
+            <p>Created a clear reporting view with executive metrics and portfolio allocation visuals.</p>
+          </article>
+          <article>
+            <h3>Data organization</h3>
+            <p>Separated raw inputs, lookup data, calculations, checks, summaries, and presentation layers.</p>
+          </article>
+          <article>
+            <h3>Project communication</h3>
+            <p>Documented the workbook clearly so an unfamiliar reader can understand the purpose and workflow.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__intro">
+          <p class="eyebrow">Future improvements</p>
+          <h2>Where the project could go next</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Automated prices</h3>
+            <p>Connect the workbook to a market data source so prices can refresh with less manual entry.</p>
+          </article>
+          <article>
+            <h3>Historical tracking</h3>
+            <p>Add portfolio value over time, monthly returns, and benchmark comparison.</p>
+          </article>
+          <article>
+            <h3>More return detail</h3>
+            <p>Add dividend tracking, total return calculations, and allocation target analysis.</p>
+          </article>
+          <article>
+            <h3>Published site</h3>
+            <p>Publish the static project page through GitHub Pages for easier sharing.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--screenshots" id="screenshots">
+        <div class="section__intro">
+          <p class="eyebrow">Screenshots</p>
+          <h2>Workbook views</h2>
+          <p>
+            These screenshots show the final dashboard and the supporting sheets that feed the analysis.
+          </p>
+        </div>
+        <div class="gallery">
+          <figure>
+            <img src="assets/screenshots/Dashboard.png" alt="Dashboard worksheet">
+            <figcaption>Dashboard</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/Holdings.png" alt="Holdings worksheet">
+            <figcaption>Holdings</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/Transactions.png" alt="Transactions worksheet">
+            <figcaption>Transactions</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/Pivot_Summary.png" alt="Pivot summary worksheet">
+            <figcaption>Pivot Summary</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/Stock_Data.png" alt="Stock data worksheet">
+            <figcaption>Stock Data</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/Asset_Info.png" alt="Asset information worksheet">
+            <figcaption>Asset Info</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/Prices.png" alt="Prices worksheet">
+            <figcaption>Prices</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/Checks.png" alt="Checks worksheet">
+            <figcaption>Checks</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
